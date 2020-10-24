@@ -1,0 +1,73 @@
+body{
+        background-color: cyan ;
+        opacity: 0.9;
+    }
+   .container{
+       margin: 50px auto;
+       border: 2px solid black;
+       border-radius: 15px;
+       background-color: transparent ;
+       font-size: 15px;
+       font-weight: 800;
+       font-family: cursive;
+       background-color: #d9d9d9;
+   }
+   .col-sm-4 .fa{
+       margin-right: 5px;
+       padding: 5px;
+       
+   }
+   input[type=text] {
+       border: none;
+  border-bottom: 2px solid black;
+}
+input[type=date] {
+    border: none;
+  border-bottom: 2px solid black;
+}
+input[type=number ] {
+    border: none;
+  border-bottom: 2px solid black;
+}
+input[type=email] {
+    border: none;
+  border-bottom: 2px solid black;
+}
+input[type=password]{
+    border: none;
+    border-bottom: 2px solid black;
+}
+   .col-sm-4{
+       padding: 10px 20px;
+   }
+   .submit{
+       box-sizing: 50px;
+    font-weight: 800;
+       cursor: pointer;
+       margin-top: 20px;
+       background-color: #d9d9d9 ;
+       font-size: 20px;
+       border: 0 !important;
+       color: black;
+       padding: 10 35px;
+       border-radius: 30px !important;
+       box-shadow: none !important;
+       align-content: center;
+   }   
+   .submit:hover{
+       background-color: red;
+       color: #d9d9d9;
+   }
+   .form-control{
+       background:transparent;
+      
+   }
+   
+  .divide{
+      display: grid;
+      grid-template-columns: 20% 70%;
+
+  } 
+  #code{
+      margin: 10px;
+  }
