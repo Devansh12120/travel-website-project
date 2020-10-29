@@ -2,13 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
     <title>Elegant Login Page - Bootsnipp.com</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
-        /* Made with love by Mutiullah Samim*/
-
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,body{
@@ -99,34 +96,7 @@ margin-left: 4px;
     </style>
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-	<script>
-		function validate(){
-			var username = document.sign.username;
-			var password = document.sign.password;
-			if (username.value=="" || password.value=="") {
-				if(username.value==""){
-					alert("username is required");
-					username.style.border = "3px solid red";
-					document.getElementById('username_div').style.color = "white";
-					username.focus();
-					return false;
-
-				}
-				else{
-
-					alert("password is required");
-					password.style.border = "1px solid red";
-					document.getElementById('password_div').style.color = "red";
-					password.focus();
-					return false;
-        		}
-			}
-			else
-			{
-				alert("sign - in successful");
-			}
-		}
-	</script>
+	<script src="login.js"></script>
 </head>
 <body>
 <!DOCTYPE html>
@@ -157,7 +127,7 @@ margin-left: 4px;
 				</div>
 			</div>
 			<div class="card-body">
-				<form name="sign" onsubmit="return validate()" method="post">
+				<form name="sign" onsubmit="return validate()" method="post" action="bookhome.html">
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
@@ -184,7 +154,7 @@ margin-left: 4px;
 			</div>
 			<div class="card-footer">
 				<div class="d-flex justify-content-center links">
-					Don't have an account?<a href="#">Sign Up</a>
+					Don't have an account?<a href="signup/index.html">Sign Up</a>
 				</div>
 				<div class="d-flex justify-content-center">
 					<a href="#">Forgot your password?</a>
