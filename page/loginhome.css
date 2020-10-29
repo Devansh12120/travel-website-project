@@ -1,0 +1,145 @@
+
+	*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+	overflow: hidden;
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url("1920x1200 Photography Tropical.jpg");
+	background-size: cover;
+	background-repeat: no-repeat ;
+	background-attachment: fixed;
+
+}
+.header{
+    
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    margin-left: 20px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    
+}
+.login{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+	margin-right: 20px;
+
+}
+.login .fa{
+	padding-right: 10px;
+}
+.login:hover{
+	background-color: #4d84e2;
+}
+.text{
+	margin-left: 10px;
+	font-family: cursive;
+	font-size: xx-large;
+	text-align: center;
+}
+.img{
+	padding: 200px ;
+	padding-left: 400px;
+
+}
+	
+.btn {
+	width: 150px;
+	outline: none !important;
+	border: 2px solid #fff;
+	color: #fff;
+	background: transparent;
+	height: 49px;
+	border-radius: 49px;
+	margin: 10px 0;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-left: 500px;
+	margin-top: 300px ;
+	font-family: cursive;
+	font-size: larger;
+  }
+  .btn a{
+	  text-decoration-color: none;
+	  color: #fff;
+	  text-decoration: none;
+  }
+  .btn:hover {
+	background-color: #4d84e2;
+  }
+.container1{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+  .login-content{
+display: grid;
+grid-template-columns: 50% 50%;
+	
+}
+
+ .login-content .fa{
+	padding-right: 20px;
+	text-align: justify;
+	font-size: 20px;
+}
+.search-box{
+	position: absolute;
+	top: 55%;
+	left: 65%;
+	transform: translate(-50%,-50%);
+	background: transparent;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+
+}
+.search-box .fa{
+	color: #fff;
+}
+.search-box:hover > .search-txt{
+	width: 240px;
+	padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+	background: white;
+	
+}
+.search-btn{
+	color: white;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: aqua;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.search-txt{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0px;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
+.container a{
+	text-decoration: none;
+	color: beige;
+}
