@@ -1,7 +1,21 @@
 html{
     scroll-behavior: smooth;
 }
-
+.Contact-us{
+  background-image: linear-gradient(red,pink);
+  width: 220px;
+  padding: 8px 0;
+  border: 2px solid black;
+  color: black;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.Contact-us .fa{
+  margin-right: 10px;
+}
+.Contact-us:hover{
+  background-image:  linear-gradient(pink,red);
+}
 
 *{
 padding: 0;
